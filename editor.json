@@ -2,19 +2,16 @@
   "matches": [
     {
       "id": 1,
-      "home_team": "Real Madrid",
-      "away_team": "Al Nassr",
+      "home_team": "الريال",
+      "away_team": "النصر",
       "time": "21:00",
       "status": "upcoming",
-      "league": "Friendly Match"
-    },
-    {
-      "id": 2,
-      "home_team": "Manchester City",
-      "away_team": "Arsenal",
-      "time": "22:45",
-      "status": "live",
-      "league": "Premier League"
+      "league": "ودية",
+      "links": [
+        {"name": "http://nxbrush.xyz:80/live/Ertanbcc/41hk6QdSQ2/837269.m3u8", "url": "رابط_البث_الأول_هنا"},
+        {"name": "http://nxbrush.xyz:80/live/Ertanbcc/41hk6QdSQ2/837269.m3u8", "url": "رابط_البث_الثاني_هنا"},
+        {"name": "http://nxbrush.xyz:80/live/Ertanbcc/41hk6QdSQ2/837269.m3u8", "url": "رابط_البث_الثالث_هنا"}
+      ]
     }
   ]
 }
