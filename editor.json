@@ -1,0 +1,20 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "home_team": "Real Madrid",
+      "away_team": "Al Nassr",
+      "time": "21:00",
+      "status": "upcoming",
+      "league": "Friendly Match"
+    },
+    {
+      "id": 2,
+      "home_team": "Manchester City",
+      "away_team": "Arsenal",
+      "time": "22:45",
+      "status": "live",
+      "league": "Premier League"
+    }
+  ]
+}
