@@ -11,7 +11,7 @@ jobs:
       - name: Update Config
         run: |
           date=$(date +%Y-%m-%d)
-          sed -i "s/\"last_update\": \".*\"/\"last_update\": \"$date\"/" app_config.json
+          sed -i "s/\"last_update\": \".*\"/\"last_update\": \"$date\"/" editor.json
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
