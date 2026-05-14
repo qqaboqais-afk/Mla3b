@@ -1,0 +1,20 @@
+name: Update App Config
+on:
+  push:
+    paths:
+      - 'editor.json'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update Config
+        run: |
+          date=$(date +%Y-%m-%d)
+          sed -i "s/\"last_update\": \".*\"/\"last_update\": \"$date\"/" app_config.json
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Auto update config"
+          git push
